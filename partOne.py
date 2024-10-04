@@ -1,5 +1,5 @@
 def main():
-    slow = input("Input ")
+    slow = input("Input: ")
     result = myFunction(slow)
     print (result)
 

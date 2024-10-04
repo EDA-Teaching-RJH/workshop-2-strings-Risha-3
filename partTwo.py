@@ -1,8 +1,8 @@
 import math  
 
 def main():
-    number1 = int(input("Enter an integer: "))  
-    number2 = int(input("Enter an integer: "))
+    number1 = int(input("Enter the first integer: "))  
+    number2 = int(input("Enter the second integer: "))
     result = pythag(number1 , number2)
     print (result)
 

@@ -1,8 +1,10 @@
 def main():
     slow = input("Input ")
-    myFunction(slow)
+    result = myFunction(slow)
+    print (result)
 
 def myFunction(text):
-  #Your code goes here.
+    text = text.replace(" ", "...")
+    return text
 
 main()
